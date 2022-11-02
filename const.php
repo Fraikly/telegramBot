@@ -1,2 +1,2 @@
 <?php
-const TOKEN = ;
+const TOKEN = '';
