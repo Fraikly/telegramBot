@@ -1,5 +1,6 @@
 <?php
 include "const.php";
+const URL = 'https://api.telegram.org/bot' . TOKEN . '/';
 const Method_Update = 'getUpdates';
 const Method_Send = 'sendMessage';
 
