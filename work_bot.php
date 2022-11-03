@@ -28,7 +28,7 @@ function useMethod($method,$options=[]){
 
         //if this is a command
         if($last_message_text=='/start'){
-            $text = "Добрый день,выберите нужную команду: \n/command1 - для подсчета дней \n/command2 - для подсчета даты";
+            $text = "Добрый день, выберите нужную команду: \n/command1 - для подсчета дней \n/command2 - для подсчета даты";
         }
         else if($last_message_text=='/command1'){
             $text = "Введите дату, до которой нужно посчитать дни, в формате д.м.гггг";
